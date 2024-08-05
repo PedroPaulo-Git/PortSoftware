@@ -1,0 +1,94 @@
+.services{
+    background-color: #140122;
+    width: 60%;
+    padding-inline: 20%;
+    height: 20vw;
+    padding-block: 10vw;
+    color: white;
+}
+.services-title-container{
+    display: flex;
+}
+.services-title{
+    margin: 0;
+    margin-right: 10%;
+}
+.services-title-left{
+    display: flex;
+    flex-direction: column;
+    font-size: 20px;
+    margin: 0;
+}
+.services-title-offer{
+    margin:0;
+}
+.services-title-right{
+   width: 60%;
+   padding-left: 2%;
+}
+.services-title-right span{
+    display: block;
+    width: 100%;
+    height: 3px;
+    background-color: #c793ee;
+}
+.services-content-container{
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    margin-top: 60px;
+    width: 100%;
+}
+.services-content{
+    width: 250px;
+    height: 250px;
+    background-color: #441d5f; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 2%;
+    text-align: center;
+    position: relative;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+    overflow: hidden;
+
+}
+.services-content-background {
+    position: absolute; /* Position absolutely to cover the entire parent */
+    top: 0; /* Start off-screen */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #a678c771; /* Background color of the hover effect */
+    transition: transform 0.3s ease; /* Smooth transition for the transform property */
+    transform: translateY(100%); /* Move it up by its own height initially */
+    z-index: 0; /* Ensure it is behind other content */
+}
+.services-content:hover .services-content-background {
+    transform: translateY(0); 
+}
+.services-content-circlestylebackground{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #2a103d71; 
+    position: absolute;
+    top: 50px;
+    z-index: 0;
+    
+}
+
+.services-content:hover .services-content-circlestylebackground{
+    background-color: #a678c771; 
+}
+.services-content:hover p.p-services-learn-more{
+    color: #676768;
+}
+.services-content-icon{
+    width:80px;
+    color: #441d5f; 
+    filter: invert(1);
+    margin-bottom: 20%;
+    margin-top: 20%;
+}
