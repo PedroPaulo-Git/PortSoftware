@@ -11,7 +11,7 @@ export const Services = () => {
             <div className='services'>
                 <div className='services-title-container'>
                     <div className='services-title-left'>
-                        <p className='services-title-offer'>O que Nós Temos a Oferecer <span>---</span></p>
+                        <span className="sub-title">O que Nós Temos a Oferecer</span>
                         <h1 className='services-title'>Temos Exatamente o Serviço que Você Precisa para seu Negócio !</h1>
                     </div>
                     <div className='services-title-right'>
@@ -21,7 +21,7 @@ export const Services = () => {
                 </div>
                 <div className='services-content-container'>
                     <div className='services-content'>
-                    <p style={{margin:0,zIndex:1}}>UI/UX Designs Criativos</p><br></br>
+                    <p className='services-content-title' style={{margin:0,zIndex:1}}>UI/UX Designs Criativos</p><br></br>
                     <span className='services-content-circlestylebackground'></span>
                     <span className='services-content-background'></span>
                         <img className='services-content-icon' id='svg1' src={UxDesign} alt="" />
@@ -29,7 +29,7 @@ export const Services = () => {
                         
                     </div>
                     <div className='services-content'>
-                    <p style={{margin:0,zIndex:1}}>Design e Desenvolvimento de Aplicativos Móveis</p>
+                    <p className='services-content-title' style={{margin:0,zIndex:1}}>Design e Desenvolvimento de Aplicativos Móveis</p>
                     <span className='services-content-circlestylebackground'></span>
                      <span className='services-content-background'></span>
                         <img className='services-content-icon' id='svg1' src={AppDev} alt="" />
@@ -38,7 +38,7 @@ export const Services = () => {
                         
                     </div>
                     <div className='services-content'>
-                    <p style={{margin:0,zIndex:1}}>Desenvolvimento de Websites e Portais Web</p>
+                    <p className='services-content-title' style={{margin:0,zIndex:1}}>Desenvolvimento de Websites e Portais Web</p>
                     <span className='services-content-circlestylebackground'></span>
                      <span className='services-content-background'></span>
                         <img className='services-content-icon' id='svg1' src={Coding} alt="" />
@@ -47,7 +47,7 @@ export const Services = () => {
                         
                     </div>
                     <div className='services-content'>
-                    <p style={{margin:0,zIndex:1}}>Análise de Dados e Business Intelligence (BI)</p>
+                    <p className='services-content-title' style={{margin:0,zIndex:1}}>Análise de Dados e Business Intelligence (BI)</p>
                     <span className='services-content-circlestylebackground'></span>
                      <span className='services-content-background'></span>
                         <img className='services-content-icon' id='svg1' src={Analyse} alt="" />
@@ -55,7 +55,7 @@ export const Services = () => {
                         
                     </div>
                     <div className='services-content'>
-                    <p style={{margin:0,zIndex:1}}>Serviços de Qualidade e Testes de Software</p><br></br>
+                    <p className='services-content-title' style={{margin:0,zIndex:1}}>Serviços de Qualidade e Testes de Software</p><br></br>
                     <span className='services-content-circlestylebackground'></span>
                      <span className='services-content-background'></span>
                         <img className='services-content-icon' id='svg1' src={Data} alt="" />
