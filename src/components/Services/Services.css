@@ -1,6 +1,7 @@
 :root{
     --gradient-1: linear-gradient(to left, #9d15ff, #441d5f);
     --gradient-2: linear-gradient(to left, #7b09cc, #441d5f);
+    --gradient-3: linear-gradient(to left, #5b1591, #b35af3);
 }
 
 
@@ -11,6 +12,7 @@
     height: 30vw;
     padding-block: 10vw;
     color: white;
+    
 }
 .services-title-container{
     display: flex;
@@ -112,12 +114,14 @@
 }
 .services-content-title{
     font-weight: 600;
+    cursor: pointer;
 }
 
 .services-content:hover p.p-services-learn-more{
     color: #000000;
     z-index: 0;
     transition: all 1s;
+    cursor: pointer;
 }
 .services-content:hover .services-content-icon{
     z-index: 2;

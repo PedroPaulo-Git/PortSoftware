@@ -2,6 +2,7 @@ import './Home.css'
 import { HeaderHome } from '../HeaderHome/HeaderHome'
 import HomeImage from '../../assets/homeproject.jpg'
 import { Services } from '../Services/Services'
+import { Project } from '../Projects/Project'
 
 export const Home = () => {
   return (
@@ -17,6 +18,7 @@ export const Home = () => {
      </div>
      <div>
         <Services/>
+        <Project/>
      </div>
     </>
    
