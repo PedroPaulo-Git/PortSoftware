@@ -1,6 +1,7 @@
 .project-container {
     width: 100%;
-    height: 30vw;
+    height: 40vw;
+    padding-bottom: 10%;
     background-color: #140122;
 }
 
@@ -75,7 +76,6 @@
     display: flex;
     justify-content: center;
     width: 100%;
-    height: 100%;
     background-color: #140122;
     position: relative;
 
@@ -84,17 +84,18 @@
 .project-swiper {
     display: flex;
     width: 80%;
-    height: 100%;
+    height:500px;
     gap: 20px;
     position: absolute;
     top: -120px;
     overflow: hidden;
+    justify-content: center;
 }
 
 .project-slide {
     position: relative;     
     width: 370px;
-    height: 90%;
+    height: 100%;
     display: flex;
     flex-direction: column;
     cursor: pointer;
@@ -111,6 +112,7 @@
 .project-slide:hover .project-slide-img-background {
     transform: scale(1.1);
     height: 90%;
+    filter: grayscale(100%) blur(1px);
    transition: all 0.4s ease;
 }
 
