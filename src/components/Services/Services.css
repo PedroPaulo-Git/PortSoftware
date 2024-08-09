@@ -6,10 +6,9 @@
 
 
 .services{
-    background-color: #140122;
-    width: 60%;
-    padding-inline: 20%;
-    height: 30vw;
+    background-color: #141414;
+    padding-inline: 14%;
+    height: 35vw;
     padding-block: 10vw;
     color: white;
     
@@ -20,11 +19,13 @@
 .services-title{
     margin: 0;
     margin-right: 10%;
+    font-size: 40px;
+    font-weight: 700;
 }
 .services-title-left{
     display: flex;
     flex-direction: column;
-    font-size: 20px;
+    font-size: 16px;
     margin: 0;
 }
 
@@ -34,7 +35,7 @@
 }
 .services-title-left .sub-title::before,.services-title-left .sub-title::after{
     position: absolute;
-    left: 90%;
+    left: 70%;
     top: 50%;
     background: var(--gradient-1);
     content: "";
@@ -75,7 +76,7 @@
 }
 .services-content{
     width: 250px;
-    height: 250px;
+    height: 300px;
     background-color: #441d5f; 
     display: flex;
     flex-direction: column;

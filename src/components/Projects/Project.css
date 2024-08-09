@@ -2,7 +2,7 @@
     width: 100%;
     height: 40vw;
     padding-bottom: 10%;
-    background-color: #140122;
+    background-color: #141414;
 }
 
 .project-background {
@@ -23,6 +23,13 @@
 }
 
 .project-background-text {
+    margin-top: 4%;
+    width: 500px;
+    color: white;
+    height: 50%;
+    z-index: 1;
+}
+.project-background-title {
     margin-top: 4%;
     width: 500px;
     color: white;
@@ -69,7 +76,7 @@
 
 .project-background-title {
     margin-block: 0;
-
+    font-size: 38px;
 }
 
 .project-swiper-container {
@@ -118,9 +125,10 @@
 
 .project-slide:hover .project-slide-bottom {
     transform: translateY(20px);
-
 }
-
+.project-slide:hover .project-slide-bottom-title {
+    box-shadow: 20px 8px 27px rgba(0, 0, 0, 0.2);
+}
 .project-slide-img {
     position: absolute;
     top: 0px;
@@ -155,7 +163,7 @@
 
 .project-slide-bottom-subtitle {
     background-color: #570194;
-    width: 100px;
+    width: 120px;
     padding: 10px;
     display: flex;
     justify-content: center;
@@ -164,10 +172,10 @@
 .project-slide-bottom-title {
     background-color: aliceblue;
     color: black;
-    max-width: 260px;
-    padding: 22px;
+    max-width: 290px;
+    padding: 18px;
     font-size: 24px;
-    font-weight: 600;
+    font-weight: 500;
     display: flex;
     justify-content: center;
 }

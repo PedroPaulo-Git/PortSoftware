@@ -1,0 +1,107 @@
+.contact {
+    position: relative;
+    background-color:  #141414;
+    margin-bottom: -10px;
+    padding-top: 0%;
+    display: flex;
+}
+
+
+.contact-container {
+    position: absolute;
+    top: -20px;
+    background-color: #141414;
+    padding: 60px;
+    width: 100%;
+    max-width: 500px;
+    z-index: 1;
+    margin-left: 14%;
+    color: white;
+}
+.contact-background{
+    width: 100%;
+    z-index: -0;
+}
+.contact-image-png{
+    position: absolute;
+    margin-left: 30%;
+    bottom: 50px;
+}
+
+.sub-title {
+    position: relative;
+    width: 300px;
+}
+
+.contact-container .sub-title::before,
+.contact-container .sub-title::after {
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    background: var(--gradient-3);
+    content: "";
+}
+
+.contact-container .sub-title::before {
+    margin-top: -1px;
+    height: 2px;
+    width: 26px;
+    margin-left: 10px;
+
+}
+
+.contact-container .sub-title::after {
+    margin-top: -3px;
+    height: 6px;
+    width: 6px;
+    margin-left: 36px;
+    border-radius: 50%;
+
+}
+.contact-container h1.title  {
+    font-size: 55px;
+    margin-bottom: 10%;
+}
+
+
+
+
+.contact-container label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+    color: #333;
+}
+
+.contact-container input,
+.contact-container textarea {
+    width: 90%;
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 1px solid #5f5f5f;
+    border-radius: 4px;
+    font-size: 14px;
+    background-color: #333;
+}
+::placeholder{
+    color: white;
+}
+.contact-container input:focus , .contact-container textarea:focus {
+    outline: none;
+   color: white;
+}
+.contact-container button {
+    width: 50%;
+    padding: 16px;
+    background-color: #570194;
+    border: none;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.contact-container button:hover {
+    background-color: #320055;
+}

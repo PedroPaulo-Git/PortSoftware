@@ -3,6 +3,7 @@ import { HeaderHome } from '../HeaderHome/HeaderHome'
 import HomeImage from '../../assets/homeproject.jpg'
 import { Services } from '../Services/Services'
 import { Project } from '../Projects/Project'
+import { Contact } from '../Contact/Contact'
 import { Footer } from '../Footer/Footer'
 
 export const Home = () => {
@@ -20,6 +21,7 @@ export const Home = () => {
      <div>
         <Services/>
         <Project/>
+        <Contact/>
         <Footer/>
      </div>
     </>
