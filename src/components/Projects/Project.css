@@ -127,7 +127,6 @@
     transform: translateY(20px);
 }
 .project-slide:hover .project-slide-bottom-title {
-    box-shadow: 20px 8px 27px rgba(0, 0, 0, 0.2);
 }
 .project-slide-img {
     position: absolute;
