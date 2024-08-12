@@ -22,6 +22,26 @@
     font-weight: 700;
     margin: 0;
 }
+.homeimage-info-bottom{
+    display: flex;
+    align-items:center ;
+    margin-top: 40px;
+}
+.homeimage-info-socialmidia{
+    gap: 15px;
+    display: flex;
+    margin-left: 20px;
+
+}
+.homeimage-info-socialmidia svg{
+   cursor: pointer;
+
+}
+.homeimage-info-socialmidia svg:hover{
+    transform: scale(1.1);
+    color:#9d15ff;
+    
+ }
 .homeimage-info h2{
   font-size: 20px;
   margin-top: 0;
@@ -39,10 +59,12 @@
     border-radius: 0px 10px 0px ;
     cursor: pointer;
     width: 150px;
-    margin-top: 40px;
+
     transition: all 0.5s;
 }
 .homeimage-info-btn:hover{
     transform: scale(1.1);
+    border-color: #9d15ff;
+    background-color:  #9d15ff;
    
 }

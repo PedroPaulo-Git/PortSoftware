@@ -11,7 +11,7 @@ import ProjectPortbackground2 from '../../assets/project-3.jpg'
 import BackgroundProject from '../../assets/background.png'
 export const Project = () => {
     return (
-        <div className='project-container'>
+        <div id='projets' className='project-container'>
             <div className='project-background'>
                 <img className='project-background-img' src={BackgroundProject} alt="" />
                 <div className='project-background-text'>

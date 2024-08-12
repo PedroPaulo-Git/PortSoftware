@@ -6,6 +6,11 @@ import { Project } from '../Projects/Project'
 import { Contact } from '../Contact/Contact'
 import { Footer } from '../Footer/Footer'
 
+import { FaInstagram } from "react-icons/fa6";
+import { FaWhatsapp } from "react-icons/fa6";
+import { FaGithub } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
+
 export const Home = () => {
   return (
     <>
@@ -16,7 +21,12 @@ export const Home = () => {
           <h2>O que você quer pra hoje? construir um código, deploy do seu projeto, uma colaboração ou até mesmo análise de códigos e projetos </h2>
           <div className='homeimage-info-bottom'>
             <button className='homeimage-info-btn'>Começar</button>
-            
+            <div  className='homeimage-info-socialmidia'> 
+            <FaInstagram />
+            <FaWhatsapp/>
+            <FaGithub/>
+            <FaLinkedin/>
+            </div>
             </div>
 
         </div>

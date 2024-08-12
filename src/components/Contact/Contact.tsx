@@ -4,7 +4,7 @@ import ContactPng from '../../assets/banner-hero-web-min.png'
 
 export const Contact = () => {
     return (
-        <div className="contact">
+        <div id='contact' className="contact">
             <img className="contact-background" src={BackgroundContact} alt="" />
             <img className="contact-image-png" src={ContactPng} alt="" />
             <div className="contact-container">

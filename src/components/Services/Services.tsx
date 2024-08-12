@@ -8,7 +8,7 @@ import Analyse from '../../assets/coding-data-development-svgrepo-com.svg';
 export const Services = () => {
     return (
         <>
-            <div className='services'>
+            <div id='services' className='services'>
                 <div className='services-title-container'>
                     <div className='services-title-left'>
                         <span className="sub-title">O que Nós Temos a Oferecer</span>
