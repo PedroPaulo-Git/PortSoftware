@@ -21,13 +21,13 @@ export const Home = () => {
           <h2>O que você quer pra hoje? construir um código, deploy do seu projeto, uma colaboração ou até mesmo análise de códigos e projetos </h2>
           <div className='homeimage-info-bottom'>
             <button className='homeimage-info-btn'>Começar</button>
-            <div  className='homeimage-info-socialmidia'> 
-            <FaInstagram />
-            <FaWhatsapp/>
-            <FaGithub/>
-            <FaLinkedin/>
+            <div className='homeimage-info-socialmidia'>
+              <a href="http://www.google.com"><FaInstagram /></a>
+              <a href=""><FaWhatsapp /></a>
+              <a href=""><FaGithub /></a>
+              <a href=""><FaLinkedin /></a>
             </div>
-            </div>
+          </div>
 
         </div>
         <img className='homeimage' src={HomeImage} alt="" />
