@@ -3,9 +3,4 @@ Projeto feito para mostrar minhas habilidades em Front end
 mostrando meu website de portifolio >
 
 
-![alt text](http://mywebsite.png)
-
-<p align="center">
-  <img src="../project_portsoftware/src/assets/mywebsite" width="350" title="hover text">
-  <img src="../project_portsoftware/src/assets/mywebsite" width="350" alt="accessibility text">
-</p>
+</p>![Screenshot_3](https://github.com/user-attachments/assets/15f53e11-74ed-447a-bc1c-105c1b3931e0)
