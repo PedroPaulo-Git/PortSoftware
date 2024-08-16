@@ -4,7 +4,6 @@
     width: 100%;
     height: 420px;
     display: flex;
-    
     flex-direction: column;
     align-items: center
 }
@@ -20,7 +19,7 @@
     margin-top: 80px;
     margin-bottom: 30px;
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-evenly;
 }
 .footer-content{
     display: flex;
@@ -30,6 +29,11 @@
     justify-content: flex-start;
     padding-inline: 8px;
     
+}
+.footer-content-logo{
+  margin-top: -50px;
+  margin-bottom: -30px;
+    width: 180px;
 }
 /* style dot h1 */
 
@@ -78,6 +82,7 @@
     list-style: none;
     color: rgb(148, 148, 148);
     font-weight: 500;
+    margin-block: 10px;
 }
 .footer-content ul{
    margin: 0;

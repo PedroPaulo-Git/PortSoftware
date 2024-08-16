@@ -1,15 +1,14 @@
 .contact {
     position: relative;
-    background-color:  #141414;
+    background-color: #141414;
     margin-bottom: -10px;
-    padding-top: 0%;
+    padding-top: 10%;
     display: flex;
 }
 
 
 .contact-container {
     position: absolute;
-    top: -20px;
     background-color: #141414;
     padding: 60px;
     width: 100%;
@@ -18,11 +17,13 @@
     margin-left: 14%;
     color: white;
 }
-.contact-background{
+
+.contact-background {
     width: 100%;
     z-index: -0;
 }
-.contact-image-png{
+
+.contact-image-png {
     position: absolute;
     margin-left: 30%;
     bottom: 50px;
@@ -58,7 +59,8 @@
     border-radius: 50%;
 
 }
-.contact-container h1.title  {
+
+.contact-container h1.title {
     font-size: 55px;
     margin-bottom: 10%;
 }
@@ -83,13 +85,17 @@
     font-size: 14px;
     background-color: #333;
 }
-::placeholder{
+
+::placeholder {
     color: white;
 }
-.contact-container input:focus , .contact-container textarea:focus {
+
+.contact-container input:focus,
+.contact-container textarea:focus {
     outline: none;
-   color: white;
+    color: white;
 }
+
 .contact-container button {
     width: 50%;
     padding: 16px;

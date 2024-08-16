@@ -4,11 +4,14 @@ import AppDev from '../../assets/app-development.svg';
 import Coding from '../../assets/coding.svg';
 import Data from '../../assets/data.svg';
 import Analyse from '../../assets/coding-data-development-svgrepo-com.svg';
+import Background from '../../assets/backgroundservices.jpg';
 
 export const Services = () => {
     return (
         <>
             <div id='services' className='services'>
+            <img className='services-content-background-image' src={Background} alt="" />
+            <div className='services-container'>
                 <div className='services-title-container'>
                     <div className='services-title-left'>
                         <span className="sub-title">O que Nós Temos a Oferecer</span>
@@ -68,6 +71,7 @@ export const Services = () => {
                             <h3 className='services-bottom-text'>Precisa de uma Solução Digital ou Software para seu Negócio? <h3 className='services-bottom-text'>     Envie uma Solicitação Agora</h3></h3>
                             <button className='services-bottom-btn'><span className='services-bottom-btn-background'></span><span className='services-bottom-btn-text'>Saber Mais</span></button>
                         </div>
+                    </div>
                     </div>
             </div>
 

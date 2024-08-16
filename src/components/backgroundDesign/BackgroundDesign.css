@@ -1,0 +1,69 @@
+.background {
+    position: relative;
+    z-index: 1;
+    height: 20vw;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.background-container {
+    height: 16vw;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 80%;
+    height: 100%;
+    align-items: center;
+
+}
+
+.background-container-content {
+    z-index: 1;
+    /* Ensure content is on top */
+    position: absolute;
+    /* Position content relative to the container */
+    height: 100px;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background: #242424c4;
+    border: 10px solid #141414; ;
+    align-items: center;
+    border-radius: 1.5em;
+
+}
+
+.background-info {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100px;
+    /* Width of the transparent hole */
+    height: 100px;
+    /* Height of the transparent hole */
+    background: rgb(241, 0, 0);
+    /* Background color of the hole */
+    transform: translate(-50%, -50%);
+    clip-path: circle(50px at center);
+
+}
+
+.background-image {
+    position: fixed;
+    /* Position the image absolutely within the container */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 100%;
+    /* Ensures the image covers the entire container */
+    object-fit: cover;
+    /* Keeps the aspect ratio and covers the container */
+    z-index: -2;
+    /* Places the image behind the content */
+
+}

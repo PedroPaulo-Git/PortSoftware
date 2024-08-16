@@ -7,11 +7,8 @@
 
 .services{
     background-color: #141414;
-    padding-inline: 14%;
-    height: 35vw;
-    padding-block: 10vw;
     color: white;
-    
+    position: relative;
 }
 .services-title-container{
     display: flex;
@@ -69,13 +66,13 @@
 }
 .services-content-container{
     display: flex;
-    gap: 10px;
+    gap: 20px;
     justify-content: center;
     margin-top: 60px;
     width: 100%;
 }
 .services-content{
-    width: 250px;
+    width: 225px;
     height: 300px;
     background-color: #441d5f; 
     display: flex;
@@ -100,6 +97,26 @@
     transform: translateY(101%); 
     z-index: 0; 
 }
+.services-content-background-image{
+    position: absolute; 
+    opacity: 0.02;
+    width: 100%;
+    height: 100%;
+    background-size: cover; /* Cover keeps the image proportional */
+    background-position: center; /* Centers the background image */
+    background-attachment: fixed; 
+    object-fit: cover;
+}
+.services-container{
+    padding:5%;
+    padding-inline: 10%;
+}
+
+
+
+
+
+
 .services-content:hover .services-content-background {
     transform: translateY(0); 
 }

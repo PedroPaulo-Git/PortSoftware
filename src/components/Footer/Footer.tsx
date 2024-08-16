@@ -1,4 +1,5 @@
 import './Footer.css'
+import Logo from '../../assets/PortICON.png'
 export const Footer = () => {
     return (
 
@@ -6,7 +7,7 @@ export const Footer = () => {
             <div className='footer'>
 
                 <div className='footer-content'>
-                    <span className='footer-content-title'>Sobre</span>
+                <img className='footer-content-logo' src={Logo} alt="" />
                     <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam a saepe, illum  omnis quisquam enim tenetur quae magnam.</p>
                 </div>
                 <div className='footer-content'>

@@ -3,6 +3,7 @@ import { HeaderHome } from '../HeaderHome/HeaderHome'
 import HomeImage from '../../assets/homeproject.jpg'
 import { Services } from '../Services/Services'
 import { Project } from '../Projects/Project'
+import { BackgroundDesign } from '../backgroundDesign/BackgroundDesign'
 import { Contact } from '../Contact/Contact'
 import { Footer } from '../Footer/Footer'
 
@@ -22,10 +23,10 @@ export const Home = () => {
           <div className='homeimage-info-bottom'>
             <button className='homeimage-info-btn'>Começar</button>
             <div className='homeimage-info-socialmidia'>
-              <a href="http://www.google.com"><FaInstagram /></a>
-              <a href=""><FaWhatsapp /></a>
-              <a href=""><FaGithub /></a>
-              <a href=""><FaLinkedin /></a>
+              <a href="https://www.instagram.com/portsoftware/"><FaInstagram /></a>
+              <a href="https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."><FaWhatsapp /></a>
+              <a href="https://github.com/PedroPaulo-Git" ><FaGithub /></a>
+              <a  href="https://www.linkedin.com/in/pedro-paulodev/" ><FaLinkedin /></a>
             </div>
           </div>
 
@@ -35,6 +36,7 @@ export const Home = () => {
       <div>
         <Services />
         <Project />
+        <BackgroundDesign/>
         <Contact />
         <Footer />
       </div>

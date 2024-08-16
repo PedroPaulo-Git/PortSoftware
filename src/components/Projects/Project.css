@@ -1,8 +1,9 @@
 .project-container {
     width: 100%;
     height: 40vw;
-    padding-bottom: 10%;
     background-color: #141414;
+    position: relative;
+    padding-bottom: 10%;
 }
 
 .project-background {
