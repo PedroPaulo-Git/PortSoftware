@@ -29,27 +29,52 @@
     width: 100%;
     height: 100%;
     display: flex;
+    justify-content: center;
     background: #242424c4;
     border: 10px solid #141414; ;
     align-items: center;
     border-radius: 1.5em;
-
+    color: white;
 }
 
 .background-info {
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 100px;
-    /* Width of the transparent hole */
-    height: 100px;
-    /* Height of the transparent hole */
-    background: rgb(241, 0, 0);
-    /* Background color of the hole */
-    transform: translate(-50%, -50%);
-    clip-path: circle(50px at center);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
 
+.background-info h1 {
+font-size: 50px;
+font-weight: 800;
+margin: 0;
+margin-bottom: 16px;
+}
+
+.background-info-p {
+   padding-inline: 5%;
+   margin: 0;
+   display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    }
+.background-info-p p{
+    margin: 0;
+}
+.background-info a{
+    margin-top:50px ;
+}
+.background-info button{
+  padding-block: 15px;
+  background-color: #570194;
+  padding-inline: 35px;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 15px;
+  border-radius: 1.5em;
+  border: none;
+  color: white;
 }
 
 .background-image {
