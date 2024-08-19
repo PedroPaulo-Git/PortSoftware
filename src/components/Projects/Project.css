@@ -81,6 +81,7 @@
     margin-block: 0;
     font-size: 38px;
 }
+
 .project-swiper-container {
     position: absolute;
     left: 50%;
@@ -90,14 +91,15 @@
     width: 80%;
     height: 30vw;
     padding-inline: 20px;
-   overflow: hidden;
-
+    overflow: hidden;
+    margin-top: 20px;
     align-items: center;
 }
 
 .project-swiper {
     display: flex;
-    width: 100%;/* Width of 4 slides + total gap between them */
+    width: 100%;
+    /* Width of 4 slides + total gap between them */
     height: 500px;
     gap: 20px;
     position: relative;
@@ -108,15 +110,18 @@
 
 .project-slide {
     position: relative;
-    width: 370px; /* Width of a single slide */
+    width: 370px;
+    /* Width of a single slide */
     height: 100%;
     display: flex;
     flex-direction: column;
     cursor: pointer;
-    flex-shrink: 0; /* Prevent shrinking */
+    flex-shrink: 0;
+    /* Prevent shrinking */
     overflow: hidden;
     transition: all 4s ease-in-out;
 }
+
 /* 
 .project-slide:hover {
     transition: all 4s ease;

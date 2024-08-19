@@ -27,6 +27,7 @@
     position: absolute;
     margin-left: 30%;
     bottom: 50px;
+    z-index: 1;
 }
 
 .sub-title {

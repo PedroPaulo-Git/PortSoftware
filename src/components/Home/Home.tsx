@@ -23,10 +23,10 @@ export const Home = () => {
           <div className='homeimage-info-bottom'>
             <button className='homeimage-info-btn'>Começar</button>
             <div className='homeimage-info-socialmidia'>
-              <a href="https://www.instagram.com/portsoftware/"><FaInstagram /></a>
-              <a href="https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."><FaWhatsapp /></a>
-              <a href="https://github.com/PedroPaulo-Git" ><FaGithub /></a>
-              <a  href="https://www.linkedin.com/in/pedro-paulodev/" ><FaLinkedin /></a>
+              <a target="_blank" href="https://www.instagram.com/portsoftware/"><FaInstagram /></a>
+              <a target="_blank" href="https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."><FaWhatsapp /></a>
+              <a target="_blank" href="https://github.com/PedroPaulo-Git" ><FaGithub /></a>
+              <a target="_blank" href="https://www.linkedin.com/in/pedro-paulodev/" ><FaLinkedin /></a>
             </div>
           </div>
 

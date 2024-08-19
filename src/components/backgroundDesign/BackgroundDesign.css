@@ -30,7 +30,7 @@
     height: 100%;
     display: flex;
     justify-content: center;
-    background: #242424c4;
+    background: #242424e8;
     border: 10px solid #141414; ;
     align-items: center;
     border-radius: 1.5em;
@@ -67,14 +67,14 @@ margin-bottom: 16px;
 }
 .background-info button{
   padding-block: 15px;
-  background-color: #570194;
+  background-color: #ffffff;
   padding-inline: 35px;
   cursor: pointer;
   font-weight: 600;
   font-size: 15px;
   border-radius: 1.5em;
   border: none;
-  color: white;
+  color: rgb(0, 0, 0);
 }
 
 .background-image {

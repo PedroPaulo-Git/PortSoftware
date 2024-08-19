@@ -1,5 +1,8 @@
 import './Footer.css'
-import Logo from '../../assets/PortICON.png'
+import Logo from '../../assets/PortICON.png';
+import { MdOutlineMailOutline } from "react-icons/md";
+import { IoLogoWhatsapp } from "react-icons/io5";
+
 export const Footer = () => {
     return (
 
@@ -8,7 +11,8 @@ export const Footer = () => {
 
                 <div className='footer-content'>
                 <img className='footer-content-logo' src={Logo} alt="" />
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam a saepe, illum  omnis quisquam enim tenetur quae magnam.</p>
+                    <p>Aqui, você encontrará uma seleção dos meus melhores projetos e serviços, 
+                    criados com dedicação e atenção aos detalhes.Com uma vasta experiência em React.Js, TailsWind,Vite, Typescript,Desenvolvimento web</p>
                 </div>
                 <div className='footer-content'>
                 <span className='footer-content-title'>Explore</span>
@@ -21,14 +25,14 @@ export const Footer = () => {
                 </div>
                 <div className='footer-content'>
                 <span className='footer-content-title'>Sobre</span>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam a saepe, illum  omnis quisquam enim tenetur quae magnam.</p>
+                    <p> Estamos comprometidos em transformar suas ideias em realidade, oferecendo soluções personalizadas que atendem às suas necessidades e superam suas expectativas.</p>
                 </div>
                 <div className='footer-content footer-content-contact'>
                 <span className='footer-content-title'>Contato</span>
                     <p>Vertentes-PE</p>
                     <p>Pernambuco,Brasil</p>
-                    <span><p>receberpedro09@gmail.com</p></span>
-                    <span><p>+55 (81) 99904-9803</p></span>
+                    <span><MdOutlineMailOutline /><p>receberpedro09@gmail.com</p></span>
+                    <span><IoLogoWhatsapp /><p>+55 (81) 99904-9803</p></span>
                 </div>
 
             </div>
