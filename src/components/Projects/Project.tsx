@@ -18,10 +18,11 @@ export const Project = () => {
         arrows: true,
         speed: 500,
         slidesToShow: 4,
-        autoplay: true,
+        autoplay: false,
         slidesToScroll:1,
         autoplaySpeed: 2000,
-        touchMove:false
+        touchMove:false,
+        pauseOnHover: true
   };
     return (
         <div id='projets' className='project-container'>
