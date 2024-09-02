@@ -1,6 +1,6 @@
 .project-container {
     width: 100%;
-    height: 40vw;
+    height: 50vw;  
     background-color: #141414;
     position: relative;
     padding-bottom: 10%;
@@ -8,7 +8,7 @@
 
 .project-background {
     height: 20vw;
-    margin-bottom: -10%;
+    margin-bottom: -6%;
     background-color: #441d5f;
     display: flex;
     justify-content: center;
@@ -88,39 +88,48 @@
     transform: translate(-50%);
     display: flex;
     justify-content: center;
-    width: 80%;
+    width: 90%;
     height: 30vw;
     padding-inline: 20px;
     overflow: hidden;
     margin-top: 20px;
     align-items: center;
 }
+.slick-slide{
+ 
 
-.project-swiper {
-    display: flex;
-    width: 100%;
-    /* Width of 4 slides + total gap between them */
-    height: 500px;
-    gap: 20px;
-    position: relative;
-    overflow: hidden;
-    justify-content: center;
-    transition: all 1s ease;
 }
+.project-slide {
 
+}
+.slick-list{
+
+    
+  }
+.slick-slide{
+   
+}
+.slider-container{
+    margin-inline: 100px;
+}
+.slick-slide>div {
+    margin: 0 20px;
+    height:600px;
+   width: 400px;
+   
+}
+/* 
 .project-slide {
     position: relative;
-    width: 370px;
-    /* Width of a single slide */
-    height: 100%;
+    width: 370px;  height: 100%;
     display: flex;
     flex-direction: column;
     cursor: pointer;
     flex-shrink: 0;
-    /* Prevent shrinking */
+
     overflow: hidden;
     transition: all 4s ease-in-out;
-}
+} */
 
 /* 
 .project-slide:hover {
@@ -143,18 +152,17 @@
 
 .project-slide-img {
     position: absolute;
+    z-index: 4
+    ;
     top: 0px;
     left: 0;
     width: 100%;
 }
 
 .project-slide-img-background {
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    transition: all 0.4s ease;
     object-fit: cover;
-
+    width: 100%;
+    margin-top: -20px;
 }
 
 .project-slide-bottom {
