@@ -3,12 +3,14 @@
     position: relative;
     margin-bottom: -10px;
 }
-.homeimage{
+
+.homeimage {
     width: 100%;
     height: 80%;
-    
+
 }
-.homeimage-info{
+
+.homeimage-info {
     width: 40%;
     display: flex;
     position: absolute;
@@ -17,62 +19,71 @@
     color: rgb(243, 243, 243);
     top: 45%;
     left: 25%;
-    transform: translate(-50%,-50%);
-    font-size: 30px;
+    transform: translate(-50%, -50%);
+    font-size: max(1.1vw, 5px);
     font-weight: 700;
     margin: 0;
 }
-.homeimage-info-bottom{
+
+.homeimage-info-bottom {
     display: flex;
-    align-items:center ;
+    align-items: center;
     text-align: center;
     margin-top: 40px;
 }
-.homeimage-info-socialmidia{
+
+.homeimage-info-socialmidia {
     gap: 15px;
     display: flex;
     margin-left: 20px;
 
 }
-.homeimage-info-socialmidia a{
-  height: 32px;
+
+.homeimage-info-socialmidia a {
+    height: 32px;
 
 }
-.homeimage-info-socialmidia svg{
-   cursor: pointer;
+
+.homeimage-info-socialmidia svg {
+    cursor: pointer;
 
 }
-.homeimage-info-socialmidia svg:hover{
+
+.homeimage-info-socialmidia svg:hover {
     transform: scale(1.1);
-    color:#9d15ff;
-    
- }
- .homeimage-info-socialmidia a{
-    color: white;
- } 
-.homeimage-info h2{
-  font-size: 20px;
-  margin-top: 0;
-  font-weight: 500;
-  color: rgb(136, 136, 136);
+    color: #9d15ff;
+
 }
-.homeimage-info-btn{
-    padding-block: 10px;
-    padding-inline: 25px;
-    font-size: 15px;
+
+.homeimage-info-socialmidia a {
+    color: white;
+}
+
+.homeimage-info h2 {
+    font-size: max(0.8vw, 5px);
+    margin-top: 0;
+    font-weight: 500;
+    color: rgb(136, 136, 136);
+}
+
+.homeimage-info-btn {
+    padding-block:  max(0.4vw,2px);
+    padding-inline:max(0.4vw,2px);
+    font-size: max(0.8vw, 5px);
     font-weight: 600;
     background-color: transparent;
     border: 2px solid rgb(255, 255, 255);
     color: white;
-    border-radius: 0px 10px 0px ;
+    border-radius: 0px 10px 0px;
     cursor: pointer;
-    width: 150px;
+    width: max(8vw);
 
     transition: all 0.5s;
 }
-.homeimage-info-btn:hover{
+
+.homeimage-info-btn:hover {
     transform: scale(1.1);
     border-color: #9d15ff;
-    background-color:  #9d15ff;
-   
+    background-color: #9d15ff;
+
 }

@@ -18,11 +18,37 @@ export const Project = () => {
         arrows: true,
         speed: 500,
         slidesToShow: 4,
-        autoplay: false,
+        autoplay: true,
         slidesToScroll:1,
         autoplaySpeed: 2000,
         touchMove:false,
-        pauseOnHover: true
+        pauseOnHover: true,
+        responsive: [
+            {
+              breakpoint: 1024,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 1,
+                infinite: true,
+                dots: true
+              }
+            },
+            {
+              breakpoint: 600,
+              settings: {
+                slidesToShow: 2,
+                slidesToScroll: 2,
+                initialSlide: 2
+              }
+            },
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+                slidesToScroll: 1
+              }
+            }
+          ]
   };
     return (
         <div id='projets' className='project-container'>
@@ -143,102 +169,6 @@ export const Project = () => {
                             </div>
                         </div>
                     </div>
-
-                    <div className='project-slide '>
-                        <img className='project-slide-img-background' src={ProjectIdealbackground} alt="" />
-                        <img className='project-slide-img' src={ProjectIdeal} alt="" />
-                        <div className='project-slide-bottom' >
-                            <div className='project-slide-bottom-text'>
-                                <span className='project-slide-bottom-subtitle'>WebSite 3</span>
-                                <span className='project-slide-bottom-title'>Desenvolvido Para Restaurantes</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='project-slide '>
-                        <img className='project-slide-img-background' src={ProjectIdealbackground} alt="" />
-                        <img className='project-slide-img' src={ProjectIdeal} alt="" />
-                        <div className='project-slide-bottom' >
-                            <div className='project-slide-bottom-text'>
-                                <span className='project-slide-bottom-subtitle'>e-commerce</span>
-                                <span className='project-slide-bottom-title'>Desenvolvido Para Restaurantes</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='project-slide '>
-                        <img className='project-slide-img-background' src={ProjectIdealbackground} alt="" />
-                        <img className='project-slide-img' src={ProjectIdeal} alt="" />
-                        <div className='project-slide-bottom' >
-                            <div className='project-slide-bottom-text'>
-                                <span className='project-slide-bottom-subtitle'>e-commerce</span>
-                                <span className='project-slide-bottom-title'>Desenvolvido Para Restaurantes</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='project-slide '>
-                        <img className='project-slide-img-background' src={ProjectPortbackground} alt="" />
-                        <img className='project-slide-img' src={ProjectPort} alt="" />
-                        <div className='project-slide-bottom' >
-                            <div className='project-slide-bottom-text'>
-                                <span className='project-slide-bottom-subtitle'>Web Site 1</span>
-                                <span className='project-slide-bottom-title'>Criação de Portfolio Pessoal</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='project-slide '>
-                        <img className='project-slide-img-background' src={ProjectIdealbackground} alt="" />
-                        <img className='project-slide-img' src={ProjectIdeal} alt="" />
-                        <div className='project-slide-bottom' >
-                            <div className='project-slide-bottom-text'>
-                                <span className='project-slide-bottom-subtitle'>e-commerce</span>
-                                <span className='project-slide-bottom-title'>Desenvolvido Para Restaurantes</span>
-                            </div>
-                        </div>
-                    </div>
-
-                   
-                    <div className='project-slide '>
-                        <img className='project-slide-img-background' src={ProjectIdealbackground} alt="" />
-                        <img className='project-slide-img' src={ProjectIdeal} alt="" />
-                        <div className='project-slide-bottom' >
-                            <div className='project-slide-bottom-text'>
-                                <span className='project-slide-bottom-subtitle'>WebSite 3</span>
-                                <span className='project-slide-bottom-title'>Desenvolvido Para Restaurantes</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='project-slide '>
-                        <img className='project-slide-img-background' src={ProjectIdealbackground} alt="" />
-                        <img className='project-slide-img' src={ProjectIdeal} alt="" />
-                        <div className='project-slide-bottom' >
-                            <div className='project-slide-bottom-text'>
-                                <span className='project-slide-bottom-subtitle'>e-commerce</span>
-                                <span className='project-slide-bottom-title'>Desenvolvido Para Restaurantes</span>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div className='project-slide '>
-                        <img className='project-slide-img-background' src={ProjectIdealbackground} alt="" />
-                        <img className='project-slide-img' src={ProjectIdeal} alt="" />
-                        <div className='project-slide-bottom' >
-                            <div className='project-slide-bottom-text'>
-                                <span className='project-slide-bottom-subtitle'>WebSite 3</span>
-                                <span className='project-slide-bottom-title'>Desenvolvido Para Restaurantes</span>
-                            </div>
-                        </div>
-                    </div>
-                    <div className='project-slide '>
-                        <img className='project-slide-img-background' src={ProjectIdealbackground} alt="" />
-                        <img className='project-slide-img' src={ProjectIdeal} alt="" />
-                        <div className='project-slide-bottom' >
-                            <div className='project-slide-bottom-text'>
-                                <span className='project-slide-bottom-subtitle'>e-commerce</span>
-                                <span className='project-slide-bottom-title'>Desenvolvido Para Restaurantes</span>
-                            </div>
-                        </div>
-                    </div>
-
 
                 </Slider>
             </div>

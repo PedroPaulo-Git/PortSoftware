@@ -12,11 +12,12 @@
     height: 120px;
     align-items: center;
     justify-content: space-between;
+    font-size: max(0.8vw, 5px);;
 }
 
 .header-right ul {
     display: flex;
-    gap: 70px;
+    gap: max(2vw);
     list-style: none;
     color: white;
     height: 40px;
@@ -35,7 +36,7 @@
 }
 
 .header-right ul a.link_nav.active {
-    padding-inline: 20px;
+    padding-inline: max(1vw);
     background-color: transparent;
     color: white;
     border-radius: 0px 10px 0px;
@@ -46,7 +47,7 @@
 
 .headerhome-logo {
     position: absolute;
-    max-width: 15%;
-    margin-left: -100px;
+   width: max(10vw);
+    margin-left: max(-5vw);
     margin-top: 60px;
 }
