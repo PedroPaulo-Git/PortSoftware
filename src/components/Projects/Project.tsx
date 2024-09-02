@@ -15,13 +15,14 @@ export const Project = () => {
     const settings = {
         dots: true,
         infinite: true,
-        arrows: false,
+        arrows: true,
         speed: 500,
         slidesToShow: 4,
         autoplay: true,
         slidesToScroll:1,
         autoplaySpeed: 2000,
-    };
+        touchMove:false
+  };
     return (
         <div id='projets' className='project-container'>
             <div>
