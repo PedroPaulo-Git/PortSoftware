@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from 'react';
+import { useRef, useState, useEffect } from 'react';
 import { Link } from 'react-scroll';
 import Logo from '../../assets/PortICON.png'
 import './HeaderHome.css'
@@ -10,28 +10,28 @@ export const HeaderHome = () => {
   const [isContactLinkHovered, setIsContactLinkHovered] = useState(false);
   const [isProjectLinkHovered, setIsProjectLinkHovered] = useState(false);
 
-  const [backToTop, setBackToTop] = useState(false)
-  const navLinksRef = useRef([]);
+  // const [backToTop, setBackToTop] = useState(false)
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const windowHeight = window.innerHeight;
-      const scrollY = window.scrollY;
-      const scrollHeight = document.body.scrollHeight;
 
-      if (scrollHeight - scrollY - windowHeight < 100) {
-        setBackToTop(true);
-      } else {
-        setBackToTop(false);
-      }
-    };
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const windowHeight = window.innerHeight;
+  //     const scrollY = window.scrollY;
+  //     const scrollHeight = document.body.scrollHeight;
 
-    window.addEventListener("scroll", handleScroll);
+  //     if (scrollHeight - scrollY - windowHeight < 100) {
+  //       setBackToTop(true);
+  //     } else {
+  //       setBackToTop(false);
+  //     }
+  //   };
 
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
+  //   window.addEventListener("scroll", handleScroll);
+
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
 
 
   return (
