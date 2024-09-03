@@ -112,9 +112,7 @@
     .footer-content p{
         font-size: max(1vw, 10px);
     }
-    .footer-content-title{
 
-    }
     
 .footer-content ul{
     font-size: max(1vw, 10px);
@@ -127,3 +125,13 @@
  
 }
 
+@media (max-width:1100px) {
+     
+    
+.footer-content-title{
+    width: max(1vw, 100px);
+}
+    
+    
+    }
+    
