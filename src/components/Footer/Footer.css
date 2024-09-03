@@ -31,14 +31,14 @@
 .footer-content-logo{
   margin-top: -100px;
   margin-bottom: -50px;
-    width: 180px;
+    width: max(1vw,150px);
 }
 /* style dot h1 */
 
 .footer-content-title {
     position: relative;
-    width: 300px;
-    font-size: 26px;
+    width: max(1vw, 200px);
+    font-size: max(1vw, 10px);
     font-weight: 500;
     margin-block: 10px;
 }
@@ -75,6 +75,7 @@
     margin: 5px;
     color: rgb(148, 148, 148);
     font-weight:500;
+    font-size: max(1vw,8px);
 }
 .footer-content li{
     list-style: none;
@@ -105,3 +106,24 @@
     margin:20px;
     
 }
+
+
+@media (max-width:1350px) {
+    .footer-content p{
+        font-size: max(1vw, 10px);
+    }
+    .footer-content-title{
+
+    }
+    
+.footer-content ul{
+    font-size: max(1vw, 10px);
+ }
+ .footer-content-logo{
+    margin-top:  max(-80px);
+    margin-bottom: max(-10px);
+      width: max(1vw,100px);
+  }
+ 
+}
+
