@@ -19,7 +19,7 @@ export const Project = () => {
         slidesToShow: 4,
         autoplay: true,
         slidesToScroll:1,
-        autoplaySpeed: 2000,
+        autoplaySpeed: 3000,
         touchMove:false,
         pauseOnHover: true,
         responsive: [

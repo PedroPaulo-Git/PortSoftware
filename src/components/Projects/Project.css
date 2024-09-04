@@ -1,6 +1,6 @@
 .project-container {
     width: 100%;
-    height: 50vw;
+ 
     background-color: #141414;
     position: relative;
     padding-bottom: 10%;
@@ -220,42 +220,8 @@
 
 @media (max-width:650px) {
 
-
     .project-container{
-        padding-bottom: 30%;
-    }
-    .slider-container  {
-        margin-inline: 50px;
-    }
-
-
-    .project-slide {
-        position: relative;
-    }
-    
-    .slider-container {
-        margin-inline: 10vw;
-    
-    }
-    .slick-list {
-        height: 50vw;
-    }
-    button.slick-arrow{
-    
-    }
-    .slick-slide>div {
-        margin: 0 10px;
-        width: max(20vw);
-      
-        transition: all 0.4s ease;
-    }
-}
-
-
-@media (max-width:420px) {
-
-    .project-container{
-        padding-bottom:50%;
+        padding-bottom:20%;
     }
     .slider-container  {
         margin-inline: 50px;
@@ -267,6 +233,8 @@
 
     .project-slide {
         position: relative;
+       
+        margin: 0;
     }
     
     .slider-container {
@@ -275,17 +243,113 @@
     }
     .slick-list {
         height: 70vw;
-        width: 50vw;
+        width: 85vw;
     }
-    button.slick-arrow{
+
+     /* BUTTONS */
+    .slick-prev:before {
+        font-size: 10px;
+    }
+    .slick-next:before {
+        font-size: 10px;
+    }
+    
+    .slick-slide>div {
+        margin: 0 10px;
+       
+        width: 90%;
+        height: 100%;
+        transition: all 0.4s ease;
+    }
+   
+    /* BUTTOM TEXTS PROJECT  */
+    .project-slide-bottom-title{
+        font-size: max(1vw, 10px);
+        max-width: 80%;
+    }
+    
+.project-slide-bottom-subtitle {
+    width: max(1vw, 80px);
+    max-width: 80%;
+    font-size: max(1vw, 5px);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+    .project-background-text {
+        margin-top: 4%;
+        width: 100%;
+        color: white;
+        height: 50%;
+        z-index: 2;
+    }
+    .project-background-title{
+        width: 100%;
+    }
+    
+}
+
+
+@media (max-width:420px) {
+
+    .project-container{
+        padding-bottom:20%;
+    }
+    .slider-container  {
+        margin-inline: 50px;
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+    }
+
+
+    .project-slide {
+        position: relative;
+        margin-left: -10px;
+    }
+    
+    .slider-container {
+        margin-inline: 10vw;
     
     }
+    .slick-list {
+        height: 80vw;
+        width: 50vw;
+    }
+
+     /* BUTTONS */
+    .slick-prev:before {
+        font-size: 10px;
+    }
+    .slick-next:before {
+        font-size: 10px;
+    }
+    
     .slick-slide>div {
         margin: 0 10px;
         width: 100%;
         height: 100%;
         transition: all 0.4s ease;
     }
+    /* BUTTOM TEXTS PROJECT  */
+    .project-slide-bottom-title{
+        font-size: max(1vw, 10px);
+        max-width: 80%;
+    }
+    
+.project-slide-bottom-subtitle {
+    width: max(1vw, 80px);
+    max-width: 80%;
+    font-size: max(1vw, 5px);
+    display: flex;
+    justify-content: center;
+}
+
+
+
 
     .project-background-text {
         margin-top: 4%;
