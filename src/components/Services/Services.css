@@ -136,12 +136,12 @@
 }
 
 .services-content-circlestylebackground {
-    width: max(1vw,50px);
-    height: max(1vw,50px);
+    width: max(1vw,100px);
+    height: max(1vw,100px);
     border-radius: 50%;
     background-color: #2a103d71;
     position: absolute;
-    top: 50px;
+    top: 80px;
     z-index: 0;
     transition: all 1s;
 }
@@ -343,8 +343,11 @@
         font-size: max(1vw, 8px);
     }
     
+    
 .services-content-circlestylebackground {
-    top: 40px;
+    width: max(1vw,50px);
+    height: max(1vw,50px);
+    top: 30px;
 }
 .services-content-container {
     display: grid;
