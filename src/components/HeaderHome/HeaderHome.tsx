@@ -1,6 +1,7 @@
 import { useState } from 'react';
 import { Link } from 'react-scroll';
 import Logo from '../../assets/PortICON.png'
+import { MdOutlineMenu } from "react-icons/md";
 import './HeaderHome.css'
 
 export const HeaderHome = () => {
@@ -9,6 +10,9 @@ export const HeaderHome = () => {
   const [isSkillsLinkHovered, setIsSkillsLinkHovered] = useState(false);
   const [isContactLinkHovered, setIsContactLinkHovered] = useState(false);
   const [isProjectLinkHovered, setIsProjectLinkHovered] = useState(false);
+
+
+  const [displayMobile, setDisplayMobile] = useState(false);
 
   // const [backToTop, setBackToTop] = useState(false)
 
@@ -124,6 +128,15 @@ export const HeaderHome = () => {
 
         </div>
 
+      </div>
+      
+      <div className='header-mobile'>
+      <img className='headerhome-logo' src={Logo} alt="" />
+<div onChange={() => setDisplayMobile(true)}>
+  <MdOutlineMenu />
+</div>
+
+      
       </div>
     </div>
   )

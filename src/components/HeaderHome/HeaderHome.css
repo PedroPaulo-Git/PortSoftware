@@ -12,7 +12,8 @@
     height: 120px;
     align-items: center;
     justify-content: space-between;
-    font-size: max(0.8vw, 5px);;
+    font-size: max(0.8vw, 5px);
+    ;
 }
 
 .header-right ul {
@@ -47,7 +48,35 @@
 
 .headerhome-logo {
     position: absolute;
-   width: max(10vw);
+    width: max(10vw);
     margin-left: max(-5vw);
     margin-top: 60px;
+}
+
+/* MOBILE RESPONSIVE */
+
+.header-mobile {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+
+}
+
+@media (max-width:650px) {
+    .header {
+        display: none;
+    }
+
+    .header-mobile svg {
+        color: white;
+        margin-left: -10vw;
+    }
+
+    .headerhome-logo {
+        position: relative;
+        margin: 0px;
+        margin-left: 4vw;
+    }
 }
