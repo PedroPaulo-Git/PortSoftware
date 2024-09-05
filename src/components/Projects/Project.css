@@ -119,7 +119,7 @@
 
 .project-slide:hover .project-slide-img-background {
     transform: scale(1.01);
-    margin-top: -40px;
+    margin-top: -20px;
     transition: all 0.4s ease;
     transform: scale(1.01);
     filter: grayscale(100%) blur(1px);
@@ -127,7 +127,7 @@
 }
 
 .project-slide:hover .project-slide-bottom {
-    transform: translateY(50px);
+    transform: translateY(20px);
 }
 
 
@@ -221,7 +221,7 @@
 @media (max-width:650px) {
 
     .project-container{
-        padding-bottom:20%;
+        padding-bottom:10%;
     }
     .slider-container  {
         margin-inline: 50px;
@@ -296,7 +296,7 @@
 @media (max-width:420px) {
 
     .project-container{
-        padding-bottom:20%;
+        padding-bottom:10%;
     }
     .slider-container  {
         margin-inline: 50px;
@@ -349,6 +349,9 @@
 }
 
 
+.project-slide:hover .project-slide-bottom {
+    transform: translateY(20px);
+}
 
 
     .project-background-text {
