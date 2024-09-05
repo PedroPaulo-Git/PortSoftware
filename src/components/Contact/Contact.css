@@ -23,7 +23,9 @@
     width: 100%;
     z-index: -0;
 }
-
+.contact-background-mobile{
+    display: none;
+}
 .contact-image-png {
     position: absolute;
     margin-left: 30%;
@@ -168,4 +170,69 @@
 
 
 }
+
+
+
+@media (max-width:650px) {
+    .contact{
+        display: flex;
+        justify-content: center;
+        height: 80vw;
+        
+    }
+    .contact-container{
+        max-width: max(60%);
+       margin: 0;
+       margin-top: 5%;
+    }
+    .contact-image-png{
+        display: none;
+    }
+.contact-background{
+    display: none;
+}
+.contact-background-mobile{
+    display: block;
+   width: 100%;
+    z-index: -0;
+}
+
+}
+
+
+@media (max-width:450px) {
+    .contact{
+        display: flex;
+        justify-content: center;
+        height: 90vw;
+        
+    }
+  
+
+}
+
+@media (max-width:360px) {
+    .contact{
+        display: flex;
+        justify-content: center;
+        height: 100vw;
+        
+    }
+  
+
+}
+
+
+@media (max-width:300px) {
+    .contact{
+        display: flex;
+        justify-content: center;
+        height: 130vw;
+        
+    }
+  
+
+}
+
+
 

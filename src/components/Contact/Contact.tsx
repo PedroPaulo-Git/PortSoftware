@@ -1,11 +1,13 @@
 import './Contact.css';
 import BackgroundContact from '../../assets/backgroundcontact.jpg'
+import BackgroundContactMobile from '../../assets/backgroundcontactmobile.jpg'
 import ContactPng from '../../assets/banner-hero-web-min.png'
 
 export const Contact = () => {
     return (
         <div id='contact' className="contact">
             <img className="contact-background" src={BackgroundContact} alt="" />
+            <img className="contact-background-mobile"  src={BackgroundContactMobile} alt="" />
             <img className="contact-image-png" src={ContactPng} alt="" />
             <div className="contact-container">
             <span className="sub-title">Contate-nos</span>
