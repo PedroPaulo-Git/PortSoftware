@@ -11,12 +11,23 @@ import { FaInstagram } from "react-icons/fa6";
 import { FaWhatsapp } from "react-icons/fa6";
 import { FaGithub } from "react-icons/fa6";
 import { FaLinkedin } from "react-icons/fa6";
+import { NavMobile } from '../NavMobile/NavMobile'
+import { useState } from 'react'
 
 export const Home = () => {
+  
+  const [displayMobile, setDisplayMobile] = useState(false);
+
+  const toggleMenu = () => {
+    setDisplayMobile(true);
+  };
   return (
     <>
+   
       <div className='home'>
-        <HeaderHome />
+     
+      <HeaderHome toggleMenu={toggleMenu} />
+       
         <div className='homeimage-info'>
           <h1>É a Hora de Construir seu Software Conosco</h1>
           <h2>O que você quer pra hoje? construir um código, deploy do seu projeto, uma colaboração ou até mesmo análise de códigos e projetos </h2>
@@ -34,6 +45,8 @@ export const Home = () => {
         <img className='homeimage' src={HomeImage} alt="" />
       </div>
       <div>
+      
+      {displayMobile ? <NavMobile /> : null}
         <Services />
         <Project />
         <BackgroundDesign/>

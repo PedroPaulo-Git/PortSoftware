@@ -3,9 +3,13 @@ import { Link } from 'react-scroll';
 import Logo from '../../assets/PortICON.png'
 import { MdOutlineMenu } from "react-icons/md";
 import './HeaderHome.css'
+import { NavMobile } from '../NavMobile/NavMobile';
 
-export const HeaderHome = () => {
+interface HeaderHomeProps {
+  toggleMenu: () => void; // Defina o tipo da função
+}
 
+export const HeaderHome: React.FC<HeaderHomeProps> = ({ toggleMenu }) => {
   const [isHomeLinkHovered, setIsHomeLinkHovered] = useState(true);
   const [isSkillsLinkHovered, setIsSkillsLinkHovered] = useState(false);
   const [isContactLinkHovered, setIsContactLinkHovered] = useState(false);
@@ -132,10 +136,10 @@ export const HeaderHome = () => {
       
       <div className='header-mobile'>
       <img className='headerhome-logo' src={Logo} alt="" />
-<div onChange={() => setDisplayMobile(true)}>
-  <MdOutlineMenu />
-</div>
-
+      <div onClick={toggleMenu}>
+        <MdOutlineMenu />
+      </div>
+     
       
       </div>
     </div>
