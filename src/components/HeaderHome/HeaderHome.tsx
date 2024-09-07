@@ -3,7 +3,6 @@ import { Link } from 'react-scroll';
 import Logo from '../../assets/PortICON.png'
 import { MdOutlineMenu } from "react-icons/md";
 import './HeaderHome.css'
-import { NavMobile } from '../NavMobile/NavMobile';
 
 interface HeaderHomeProps {
   toggleMenu: () => void; // Defina o tipo da função
@@ -16,7 +15,6 @@ export const HeaderHome: React.FC<HeaderHomeProps> = ({ toggleMenu }) => {
   const [isProjectLinkHovered, setIsProjectLinkHovered] = useState(false);
 
 
-  const [displayMobile, setDisplayMobile] = useState(false);
 
   // const [backToTop, setBackToTop] = useState(false)
 

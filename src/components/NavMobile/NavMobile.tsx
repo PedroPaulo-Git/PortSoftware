@@ -1,15 +1,22 @@
 import React, { useState } from 'react';
+import { IoClose } from "react-icons/io5";
 import './NavMobile.css'
 
-export const NavMobile = () => {
-    const [isOpen, setIsOpen] = useState(false);
+interface NavMobileProps {
+  toggleMenuOff: () => void; // Defina o tipo da função
+}
 
-  const toggleMenu = () => {
-    setIsOpen(!isOpen);
-  };
+export const NavMobile: React.FC<NavMobileProps> = ({ toggleMenuOff }) => {
+
   return (
     <div className='NavMobile'>
-    <nav className={`nav-side ${isOpen ? 'open' : ''}`}>
+
+        <div onClick={toggleMenuOff}>
+        <IoClose/>
+      </div>
+
+   
+    <nav>
         <ul>
           <li><a href="#home">Início</a></li>
           <li><a href="#services">Serviços</a></li>

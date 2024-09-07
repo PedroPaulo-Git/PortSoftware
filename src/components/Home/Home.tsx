@@ -21,6 +21,9 @@ export const Home = () => {
   const toggleMenu = () => {
     setDisplayMobile(true);
   };
+  const toggleMenuOff = () => {
+    setDisplayMobile(false);
+  };
   return (
     <>
    
@@ -46,7 +49,7 @@ export const Home = () => {
       </div>
       <div>
       
-      {displayMobile ? <NavMobile /> : null}
+      {displayMobile ? <NavMobile toggleMenuOff={toggleMenuOff} /> : null}
         <Services />
         <Project />
         <BackgroundDesign/>
