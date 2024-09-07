@@ -1,11 +1,11 @@
 .NavMobile{
-    display: block;
+    transition: right 0.3s ease-in-out; 
     position: fixed;
     right: 0;
     top: 0;
     width: 50%;
     height: 100%;
-    background-color: rgb(247, 247, 247);
+    background-color: #141414;
     z-index: 3;
 
 }
@@ -15,5 +15,27 @@
 @media (max-width:650px) {
    .NavMobile{
     display: block;
+   }
+   .close-icon{
+    position: absolute;
+    right: 0;
+    color: white;
+    margin: 10px 10px 0px  0px;
+   }
+   .navmobile-nav{
+    font-size: max(2vw, 5px);
+    margin-top: 10vw;
+   }
+   .navmobile-nav ul{
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+   }
+   .navmobile-nav li a{
+    color: white;
+   
+    text-decoration: none;
    }
 }

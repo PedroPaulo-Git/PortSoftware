@@ -49,7 +49,7 @@ export const Project = () => {
           ]
   };
     return (
-        <div id='projets' className='project-container'>
+        <div id='projects' className='project-container'>
             <div>
                 <div className='project-background'>
                     <img className='project-background-img' src={BackgroundProject} alt="" />
