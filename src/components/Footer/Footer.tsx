@@ -38,7 +38,7 @@ export const Footer = () => {
             </div>
             <hr />
             <div className='footer-copy'>
-            <span>&copy; 2024 Your Company Name. All rights reserved.</span>
+            <span>&copy; 2024 PortSoftware. All rights reserved.</span>
             </div>
         </div>
     )
