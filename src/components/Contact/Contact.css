@@ -184,7 +184,9 @@
         max-width: max(60%);
        margin: 0;
        margin-top: 5%;
+       width: 40%;
     }
+  
     .contact-image-png{
         display: none;
     }
