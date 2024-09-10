@@ -293,11 +293,27 @@
 }
 
 
-@media (max-width:420px) {
+@media (max-width:650px) {
 
     .project-container{
         padding-bottom:10%;
     }
+
+
+/* texts top */
+.project-background {
+    height: 26vw;
+    
+}
+span.sub-title {
+    font-size: max(1vw, 15px);
+}
+.project-background-title {
+    font-size: max(1vw, 20px);
+   
+}
+/* slides */
+
     .slider-container  {
         margin-inline: 50px;
         display: flex;
@@ -316,16 +332,16 @@
     
     }
     .slick-list {
-        height: 80vw;
-        width: 50vw;
+        height: 120vw;
+        width: 80vw;
     }
 
      /* BUTTONS */
     .slick-prev:before {
-        font-size: 10px;
+        font-size: 20px;
     }
     .slick-next:before {
-        font-size: 10px;
+        font-size: 20px;
     }
     
     .slick-slide>div {
@@ -336,14 +352,15 @@
     }
     /* BUTTOM TEXTS PROJECT  */
     .project-slide-bottom-title{
-        font-size: max(1vw, 10px);
+        font-size: max(1vw, 20px);
         max-width: 80%;
+        padding: max(1vw, 10px);
     }
     
 .project-slide-bottom-subtitle {
     width: max(1vw, 80px);
     max-width: 80%;
-    font-size: max(1vw, 5px);
+    font-size: max(1vw, 10px);
     display: flex;
     justify-content: center;
 }
