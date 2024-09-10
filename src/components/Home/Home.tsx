@@ -1,6 +1,6 @@
 import './Home.css'
 import { HeaderHome } from '../HeaderHome/HeaderHome'
-import HomeImage from '../../assets/homeproject.jpg'
+import HomeImage from '../../assets/mobilehomebackground.jpg'
 import { Services } from '../Services/Services'
 import { Project } from '../Projects/Project'
 import { BackgroundDesign } from '../backgroundDesign/BackgroundDesign'

@@ -83,3 +83,13 @@
         margin-left: 4vw;
     }
 }
+
+@media (max-width:420px) {
+  .headerhome-logo{
+    width: 25vw;
+  }
+  .header-mobile svg {
+   font-size: 30px;
+   margin-right: 20px;
+}
+}
