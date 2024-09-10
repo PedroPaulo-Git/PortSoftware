@@ -19,7 +19,7 @@ export const Services = () => {
                     </div>
                     <div className='services-title-right'>
                         <span className='services-title-right-span'></span>
-                        <p className='services-subtitle'>Lorem ipsum, dolor eos numquam. Sit fugiat maiores doloremque vitae quam autem? Excepturi voluptate quas vel.</p>
+                        <p className='services-subtitle'>Ofereço serviços de desenvolvimento web e mobile, como criação de websites, portfólios, aplicativos e portais web. Entrego soluções personalizadas e inovadoras para suas necessidades digitais.</p>
                     </div>
                 </div>
                 <div className='services-content-container'>
