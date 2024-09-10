@@ -10,8 +10,8 @@ export const BackgroundDesign = () => {
             <div className='background-info' >
               <h1>Vamos Criar Algo Incrível Juntos</h1>
               <div className='background-info-p'>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab quos facilis nisi nulla deleniti vero minus neque porro quo? Libero, doloremque in.</p>
-              </div>
+              <p>Transforme suas ideias em realidade com soluções digitais inovadoras. Crio websites, aplicativos e portfólios sob medida para que seu projeto se destaque no mundo online.</p>
+     </div>
                 <a href="" className='background-info-button'><button className='background-info-button'>Solicitar atendimento</button></a>
             </div>
         </div>
