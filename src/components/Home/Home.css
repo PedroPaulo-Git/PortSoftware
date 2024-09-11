@@ -89,7 +89,7 @@
 
 }
 
-@media (max-width:420px) {
+@media (max-width:650px) {
     .home {
         height: 150vw;
     }
