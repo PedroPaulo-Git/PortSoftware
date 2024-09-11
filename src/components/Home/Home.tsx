@@ -31,9 +31,6 @@ export const Home = () => {
       };
     }, []);
 
-    // Step 4: Use the width in your component
-    const WIDTH_CONSTANT = window
-
     const [displayMobile, setDisplayMobile] = useState(false);
 
     const toggleMenu = () => {
