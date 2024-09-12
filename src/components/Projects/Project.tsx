@@ -96,8 +96,8 @@ export const Project = () => {
                         <img className='project-slide-img' src={ProjectFisio} alt="" />
                         <div className='project-slide-bottom' >
                             <div className='project-slide-bottom-text'>
-                                <span className='project-slide-bottom-subtitle'>e-commerce</span>
-                                <span className='project-slide-bottom-title'>Desenvolvido Para Restaurantes</span>
+                                <span className='project-slide-bottom-subtitle'>Site para Fisioterapeuta</span>
+                                <span className='project-slide-bottom-title'>Plataforma Profissional para Serviços de Fisioterapia</span>
                             </div>
                         </div>
                     </div>
@@ -108,8 +108,8 @@ export const Project = () => {
                         <img className='project-slide-img' src={ProjectMarioBros} alt="" />
                         <div className='project-slide-bottom' >
                             <div className='project-slide-bottom-text'>
-                                <span className='project-slide-bottom-subtitle'>WebSite 3</span>
-                                <span className='project-slide-bottom-title'>Desenvolvido Para Restaurantes</span>
+                                <span className='project-slide-bottom-subtitle'>Jogo Mario Bros</span>
+                                <span className='project-slide-bottom-title'>Desenvolvimento de Jogo Clássico</span>
                             </div>
                         </div>
                     </div>
