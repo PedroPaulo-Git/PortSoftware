@@ -393,15 +393,18 @@
     .services-title-left span {
         width: 90%;
     }
-
-    span.sub-title {
-        font-size: max(1vw, 10px);
-    }
-
     .services-title-left .sub-title {
-        width: 200px;
+        width:100%;
+        font-size: max(1vw, 14px);
+        margin-bottom: 10px;
     }
-
+    .services-title-left .sub-title::before, .services-title-left .sub-title::after {
+        position: absolute;
+        left: 70%;
+        top: 50%;
+        background: var(--gradient-1);
+        content: "";
+    }
     h1.services-title {
         font-size: max(1vw, 20px);
         margin: 0;

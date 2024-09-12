@@ -54,7 +54,7 @@ export const Project = () => {
                 <div className='project-background'>
                     <img className='project-background-img' src={BackgroundProject} alt="" />
                     <div className='project-background-text'>
-                        <span className="sub-title">Portifolio Recente </span>
+                        <span className="project-sub-title">Portifolio Recente </span>
                         <h1 className='project-background-title'>Confira Meus Projetos Recentemente Concluídos</h1>
                     </div>
                 </div>

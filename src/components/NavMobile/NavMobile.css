@@ -20,11 +20,12 @@
     position: absolute;
     right: 0;
     color: white;
-    margin: 10px 10px 0px  0px;
+    margin: 20px 20px 0px  0px;
+    font-size: max(1vw, 26px);
    }
    .navmobile-nav{
     font-size: max(2vw, 5px);
-    margin-top: 10vw;
+    margin-top: 18vw;
    }
    .navmobile-nav ul{
     margin-top: 50px;
@@ -35,7 +36,7 @@
    }
    .navmobile-nav li a{
     color: white;
-   
+    font-size: max(1vw, 12px);
     text-decoration: none;
    }
    .navbar-li-services{
@@ -53,11 +54,12 @@
     margin: 0;
     padding: 0;
     gap: 15px;
-    font-size: max(1.8vw, 5px);
+
     
    }
    
    ul.submenu li a{
     color: rgb(190, 190, 190);
+    
    }
 }
