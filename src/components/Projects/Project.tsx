@@ -12,6 +12,9 @@ import ProjectPortbackground from '../../assets/project-2.jpg'
 import ProjectFisio from '../../assets/fisiowebsite.png'
 import ProjectPortbackgroundFisio from '../../assets/project-2.jpg'
 
+import ProjectMarioBros from '../../assets/Gamemariobros.png'
+import ProjectIdealbackgroundMarioBros from '../../assets/project-1.jpg'
+
 import BackgroundProject from '../../assets/background.png'
 
 export const Project = () => {
@@ -101,8 +104,8 @@ export const Project = () => {
 
                    
                     <div className='project-slide '>
-                        <img className='project-slide-img-background' src={ProjectIdealbackground} alt="" />
-                        <img className='project-slide-img' src={ProjectIdeal} alt="" />
+                        <img className='project-slide-img-background' src={ProjectIdealbackgroundMarioBros} alt="" />
+                        <img className='project-slide-img' src={ProjectMarioBros} alt="" />
                         <div className='project-slide-bottom' >
                             <div className='project-slide-bottom-text'>
                                 <span className='project-slide-bottom-subtitle'>WebSite 3</span>
