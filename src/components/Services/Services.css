@@ -219,7 +219,7 @@
     padding-inline: max(3vw, 5px);
     background-color: #9d15ff;
     color: white;
-    font-size: max(1vw, 5px);
+    font-size: max(1vw, 8px);
     font-weight: 700;
     border: none;
     margin-block: 5px;
@@ -478,10 +478,9 @@
         flex-direction: column;
     }
     .services-bottom-btn {
-      
         padding-block: max(1vw, 5px);
         padding-inline: max(3vw, 5px);
-        font-size: max(1vw, 5px);
+        font-size: max(1vw, 8px);
         font-weight: 700;
         border: none;
         margin-block: 5px;
