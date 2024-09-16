@@ -12,6 +12,9 @@ import ProjectPortbackground from '../../assets/project-2.jpg'
 import ProjectFisio from '../../assets/fisiowebsite.png'
 import ProjectPortbackgroundFisio from '../../assets/project-2.jpg'
 
+import ProjectSoftpet from '../../assets/softpet.png'
+import ProjectPortbackgroundSoftpet from '../../assets/project-2.jpg'
+
 import ProjectMarioBros from '../../assets/Gamemariobros.png'
 import ProjectIdealbackgroundMarioBros from '../../assets/project-1.jpg'
 
@@ -114,12 +117,12 @@ export const Project = () => {
                         </div>
                     </div>
                     <div className='project-slide '>
-                        <img className='project-slide-img-background' src={ProjectIdealbackground} alt="" />
-                        <img className='project-slide-img' src={ProjectIdeal} alt="" />
+                        <img className='project-slide-img-background' src={ProjectPortbackgroundSoftpet} alt="" />
+                        <img className='project-slide-img' src={ProjectSoftpet} alt="" />
                         <div className='project-slide-bottom' >
                             <div className='project-slide-bottom-text'>
-                                <span className='project-slide-bottom-subtitle'>e-commerce</span>
-                                <span className='project-slide-bottom-title'>Desenvolvido Para Restaurantes</span>
+                                <span className='project-slide-bottom-subtitle'>Gerências</span>
+                                <span className='project-slide-bottom-title'>Desenvolvimento de Gerência em Next.js</span>
                             </div>
                         </div>
                     </div>
