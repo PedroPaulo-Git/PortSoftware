@@ -120,7 +120,7 @@
 
 .project-slide:hover .project-slide-img-background {
     transform: scale(1.01);
-    margin-top: -20px;
+    margin-top: -30px;
     transition: all 0.4s ease;
     transform: scale(1.01);
     filter: grayscale(100%) blur(1px);
@@ -128,7 +128,7 @@
 }
 
 .project-slide:hover .project-slide-bottom {
-    transform: translateY(20px);
+    transform: translateY(50px);
 }
 
 
