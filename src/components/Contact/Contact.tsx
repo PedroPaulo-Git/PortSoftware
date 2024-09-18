@@ -1,7 +1,9 @@
 import './Contact.css';
 import BackgroundContact from '../../assets/backgroundcontact.jpg'
 import BackgroundContactMobile from '../../assets/backgroundcontactmobile.jpg'
-import ContactPng from '../../assets/banner-hero-web-min.png'
+import ContactPng from '../../assets/banner-hero-web-min.png';
+import React, { useRef } from 'react';
+import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
     return (
