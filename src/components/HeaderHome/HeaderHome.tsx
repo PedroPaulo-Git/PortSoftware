@@ -93,7 +93,7 @@ export const HeaderHome: React.FC<HeaderHomeProps> = ({ toggleMenu }) => {
               smooth={true}
               offset={-100}
               duration={1000}
-              to="projets"
+              to="projects"
               className={`link_nav ${isProjectLinkHovered ? 'link_nav active' : ''}`}
               onMouseEnter={() => {
                 setIsProjectLinkHovered(true);

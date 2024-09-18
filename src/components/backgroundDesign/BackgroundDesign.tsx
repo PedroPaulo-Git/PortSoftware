@@ -12,7 +12,7 @@ export const BackgroundDesign = () => {
               <div className='background-info-p'>
               <p>Transforme suas ideias em realidade com soluções digitais inovadoras. Crio websites, aplicativos e portfólios sob medida para que seu projeto se destaque no mundo online.</p>
      </div>
-                <a href="" className='background-info-button'><button className='background-info-button'>Solicitar atendimento</button></a>
+                <a href="#contact" className='background-info-button'><button className='background-info-button'>Solicitar atendimento</button></a>
             </div>
         </div>
        

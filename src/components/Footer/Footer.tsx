@@ -17,10 +17,10 @@ export const Footer = () => {
                 <div className='footer-content'>
                 <span className='footer-content-title'>Explore</span>
                     <ul>
-                        <li>Sobre</li>
-                        <li>Contato</li>
-                        <li>Companhia</li>
-                        <li>Nossos Projetos</li>
+                        <a href='https://pedropaulo-git.github.io/MyRepository-in-React/' target='blank'>Sobre</a>
+                        <a href='#contact'>Contato</a>
+                        <a href='#'>Companhia</a>
+                        <a href='#projects'>Nossos Projetos</a>
                     </ul>
                 </div>
                 <div className='footer-content'>

@@ -69,7 +69,7 @@ export const Services = () => {
                 <div className='services-bottom-container'>
                         <div className='services-bottom'>
                             <h3 className='services-bottom-text'>Precisa de uma Solução Digital ou Software para seu Negócio? <h3 className='services-bottom-text'>     Envie uma Solicitação Agora</h3></h3>
-                            <button className='services-bottom-btn'><span className='services-bottom-btn-background'></span><span className='services-bottom-btn-text'>Saber Mais</span></button>
+                            <a href='#contact' className='services-bottom-btn'><span className='services-bottom-btn-background'></span><span className='services-bottom-btn-text'>Saber Mais</span></a>
                         </div>
                     </div>
                     </div>

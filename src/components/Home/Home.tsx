@@ -50,7 +50,7 @@ export const Home = () => {
             <h1>É a Hora de Construir seu Software Conosco</h1>
             <h2>O que você quer pra hoje? construir um código, deploy do seu projeto, uma colaboração ou até mesmo análise de códigos e projetos </h2>
             <div className='homeimage-info-bottom'>
-              <button className='homeimage-info-btn'>Começar</button>
+              <a href="#contact"><button className='homeimage-info-btn'>Começar</button></a>
               <div className='homeimage-info-socialmidia'>
                 <a target="_blank" href="https://www.instagram.com/portsoftware/"><FaInstagram /></a>
                 <a target="_blank" href="https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato."><FaWhatsapp /></a>
