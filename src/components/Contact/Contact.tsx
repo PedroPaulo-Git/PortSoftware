@@ -36,14 +36,16 @@ export const Contact = () => {
             <span className="sub-title">Contate-nos</span>
             <h1 className="title">Procurando algo para seu negócio?</h1>
                 <form  ref={form} onSubmit={sendEmail}>
-                <label>Name</label>
-      <input type="text" name="user_name" />
-      <label>Email</label>
-      <input type="email" name="user_email" />
-      <label>Message</label>
-      <textarea name="message" />
-      <input type="submit" value="Send" />
 
+                    <input placeholder='Seu Nome' type="text" name="user_name" required />
+
+
+                    <input placeholder='Seu Email' type="email" name="user_email" required />
+
+
+                    <textarea placeholder='Escreva uma Mensagem' id="message" rows={8}  name="message" required></textarea>
+
+                    <button value="Send" type="submit">Enviar Mensagem</button>
                 </form>
 
             </div>
