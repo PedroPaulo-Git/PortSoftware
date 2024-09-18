@@ -1,13 +1,15 @@
 import './Contact.css';
+import {ContactSendSucessful} from './ContactSendSucessful/ContactSendSucessful'
 import BackgroundContact from '../../assets/backgroundcontact.jpg'
 import BackgroundContactMobile from '../../assets/backgroundcontactmobile.jpg'
 import ContactPng from '../../assets/banner-hero-web-min.png';
-import React, { useRef } from 'react';
+import React, { useRef, useState } from 'react';
 import emailjs from '@emailjs/browser';
 
 export const Contact = () => {
     const form = useRef<HTMLFormElement | null>(null);
-
+    const [isSuccess, setIsSuccess] = useState(false);
+    
     const sendEmail = (e: React.FormEvent) => {
       e.preventDefault();
 
@@ -19,6 +21,9 @@ export const Contact = () => {
           .then(
             () => {
               console.log('SUCCESS!');
+              form.current?.reset(); 
+              setIsSuccess(true); // Show success message
+              setTimeout(() => setIsSuccess(false), 5000);
             },
             (error) => {
               console.log('FAILED...', error.text);
@@ -27,8 +32,10 @@ export const Contact = () => {
       }
     };
     
-    return (
+    return (<>
+     {isSuccess && <ContactSendSucessful />}
         <div id='contact' className="contact">
+           
             <img className="contact-background" src={BackgroundContact} alt="" />
             <img className="contact-background-mobile"  src={BackgroundContactMobile} alt="" />
             <img className="contact-image-png" src={ContactPng} alt="" />
@@ -50,5 +57,6 @@ export const Contact = () => {
 
             </div>
         </div>
+        </>
     )
 }
