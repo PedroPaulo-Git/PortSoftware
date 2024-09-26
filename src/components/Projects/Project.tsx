@@ -10,14 +10,16 @@ import ProjectIdeal from '../../assets/Ideal.png'
 import ProjectIdealbackground from '../../assets/project-1.jpg'
 
 import ProjectPort from '../../assets/portfoliio.png'
-import ProjectPortbackground from '../../assets/project-2.jpg'
-
+import ProjectPortbackground from '../../assets/project-7.jpg'
 
 import ProjectFisio from '../../assets/fisiowebsite.png'
-import ProjectPortbackgroundFisio from '../../assets/project-2.jpg'
+import ProjectPortbackgroundFisio from '../../assets/project-3.jpg'
 
 import ProjectSoftpet from '../../assets/softpet.png'
 import ProjectPortbackgroundSoftpet from '../../assets/project-4.jpg'
+
+import ProjectMovies from '../../assets/movies.png'
+import ProjectPortbackgroundMovies from '../../assets/project-2.jpg'
 
 import ProjectMarioBros from '../../assets/Gamemariobros.png'
 import ProjectIdealbackgroundMarioBros from '../../assets/project-5.jpg'
@@ -93,7 +95,7 @@ export const Project = () => {
                         <img className='project-slide-img' src={ProjectPort} alt="" />
                         <div className='project-slide-bottom' >
                             <div className='project-slide-bottom-text'>
-                                <span className='project-slide-bottom-subtitle'>Web Site 1</span>
+                                <span className='project-slide-bottom-subtitle'>Portifolio Pessoal</span>
                                 <span className='project-slide-bottom-title'>Criação de um Portfolio Pessoal <a target="blank" href='https://pedropaulo-git.github.io/MyRepository-in-React/' className="project-slide-bottom-title-a">Ver Projeto  <FaArrowUpRightFromSquare /></a> </span>
                             </div>
                         </div>
@@ -130,6 +132,17 @@ export const Project = () => {
                             </div>
                         </div>
                     </div>
+                    <div className='project-slide '>
+                        <img className='project-slide-img-background' src={ProjectPortbackgroundMovies} alt="" />
+                        <img className='project-slide-img' src={ProjectMovies} alt="" />
+                        <div className='project-slide-bottom' >
+                            <div className='project-slide-bottom-text'>
+                                <span className='project-slide-bottom-subtitle'>Api de Filmes</span>
+                                <span className='project-slide-bottom-title'>Website de Filmes Consumindo API <a target="blank" href='https://pedropaulo-git.github.io/MoviesRating/' className="project-slide-bottom-title-a">  Ver Projeto  <FaArrowUpRightFromSquare /></a> </span>
+                            </div>
+                        </div>
+                    </div>
+                   
 
                 </Slider>
             </div>
