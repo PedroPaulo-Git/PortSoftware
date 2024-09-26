@@ -2,6 +2,10 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import './Project.css'
+import { FaArrowUpRightFromSquare } from "react-icons/fa6";
+
+
+
 import ProjectIdeal from '../../assets/Ideal.png'
 import ProjectIdealbackground from '../../assets/project-1.jpg'
 
@@ -13,10 +17,10 @@ import ProjectFisio from '../../assets/fisiowebsite.png'
 import ProjectPortbackgroundFisio from '../../assets/project-2.jpg'
 
 import ProjectSoftpet from '../../assets/softpet.png'
-import ProjectPortbackgroundSoftpet from '../../assets/project-2.jpg'
+import ProjectPortbackgroundSoftpet from '../../assets/project-4.jpg'
 
 import ProjectMarioBros from '../../assets/Gamemariobros.png'
-import ProjectIdealbackgroundMarioBros from '../../assets/project-1.jpg'
+import ProjectIdealbackgroundMarioBros from '../../assets/project-5.jpg'
 
 import BackgroundProject from '../../assets/background.png'
 
@@ -79,7 +83,7 @@ export const Project = () => {
                         <div className='project-slide-bottom' >
                             <div className='project-slide-bottom-text'>
                                 <span className='project-slide-bottom-subtitle'>e-commerce</span>
-                                <span className='project-slide-bottom-title'>Desenvolvido Para Restaurantes</span>
+                                <span className='project-slide-bottom-title'>Desenvolvido Para Restaurantes <a target="blank" href='https://ideal-restaurante.vercel.app/' className="project-slide-bottom-title-a">Ver Projeto <FaArrowUpRightFromSquare /></a> </span>
                             </div>
                         </div>
                     </div>
@@ -90,7 +94,7 @@ export const Project = () => {
                         <div className='project-slide-bottom' >
                             <div className='project-slide-bottom-text'>
                                 <span className='project-slide-bottom-subtitle'>Web Site 1</span>
-                                <span className='project-slide-bottom-title'>Criação de Portfolio Pessoal</span>
+                                <span className='project-slide-bottom-title'>Criação de um Portfolio Pessoal <a target="blank" href='https://pedropaulo-git.github.io/MyRepository-in-React/' className="project-slide-bottom-title-a">Ver Projeto  <FaArrowUpRightFromSquare /></a> </span>
                             </div>
                         </div>
                     </div>
@@ -100,7 +104,7 @@ export const Project = () => {
                         <div className='project-slide-bottom' >
                             <div className='project-slide-bottom-text'>
                                 <span className='project-slide-bottom-subtitle'>Site para Fisioterapeuta</span>
-                                <span className='project-slide-bottom-title'>Plataforma Profissional para Serviços de Fisioterapia</span>
+                                <span className='project-slide-bottom-title'>Landing Profissional para Fisioterapia <a target="blank" href='https://pedropaulo-git.github.io/Geison-Fisioterapeuta/' className="project-slide-bottom-title-a">Ver Projeto  <FaArrowUpRightFromSquare /></a> </span>
                             </div>
                         </div>
                     </div>
@@ -112,7 +116,7 @@ export const Project = () => {
                         <div className='project-slide-bottom' >
                             <div className='project-slide-bottom-text'>
                                 <span className='project-slide-bottom-subtitle'>Jogo Mario Bros</span>
-                                <span className='project-slide-bottom-title'>Desenvolvimento de Jogo Clássico</span>
+                                <span className='project-slide-bottom-title'>Desenvolvimento de Jogo Clássico <a target="blank" href='https://pedropaulo-git.github.io/MarioBrosGame/' className="project-slide-bottom-title-a">Ver Projeto  <FaArrowUpRightFromSquare /></a> </span>
                             </div>
                         </div>
                     </div>
@@ -122,7 +126,7 @@ export const Project = () => {
                         <div className='project-slide-bottom' >
                             <div className='project-slide-bottom-text'>
                                 <span className='project-slide-bottom-subtitle'>Gerências</span>
-                                <span className='project-slide-bottom-title'>Desenvolvimento de Gerência em Next.js</span>
+                                <span className='project-slide-bottom-title'>Aplicação de Gerência em Next.js <a target="blank" href='https://github.com/PedroPaulo-Git/desafio-junior-1' className="project-slide-bottom-title-a">  Ver Projeto  <FaArrowUpRightFromSquare /></a> </span>
                             </div>
                         </div>
                     </div>

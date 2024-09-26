@@ -193,7 +193,7 @@
     display: flex;
     align-items: center;
     border: solid 1px rgb(255, 255, 255);
-    padding-right: 0.8%;
+    padding-right: 0.4%;
     padding-left: 4%;
     justify-content: space-between;
     margin-top: 5%;
@@ -203,14 +203,17 @@
     display: flex;
     align-items: center;
     text-align: center;
+    
     font-size: max(1vw, 5px);
     margin-block: 0;
+
 }
 
-.services-bottom-text h3 {
+.services-bottom-text a {
     color: #9d15ff;
     margin-left: 5px;
     cursor: pointer;
+    text-decoration: none;
 }
 
 .services-bottom-btn {

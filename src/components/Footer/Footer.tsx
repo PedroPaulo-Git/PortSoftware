@@ -31,8 +31,8 @@ export const Footer = () => {
                 <span className='footer-content-title'>Contato</span>
                     <p>Vertentes-PE</p>
                     <p>Pernambuco,Brasil</p>
-                    <span><MdOutlineMailOutline /><p>receberpedro09@gmail.com</p></span>
-                    <span><IoLogoWhatsapp /><p>+55 (81) 99904-9803</p></span>
+                    <span><MdOutlineMailOutline /><a href="mailto:receberpedro09@gmail.com" target="_blank" rel="noopener noreferrer"><p className='footer-email'>receberpedro09@gmail.com</p></a></span>
+                    <span><IoLogoWhatsapp /><a href="https://api.whatsapp.com/send?phone=8199049803&text=Olá,%20gostaria%20de%20entrar%20em%20contato." target="_blank" rel="noopener noreferrer"><p className='footer-number'>+55 (81) 99904-9803</p></a></span>
                 </div>
 
             </div>
