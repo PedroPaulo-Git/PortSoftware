@@ -1,6 +1,5 @@
-Projeto feito para mostrar minhas habilidades em Front end
+Empreendendo com a criação da minha software house, utilizando React com vite e tailwindcss
 
-mostrando meu website de portifolio >
-
-
-</p>![Screenshot_3](https://github.com/user-attachments/assets/15f53e11-74ed-447a-bc1c-105c1b3931e0)
+veja a pagina com depoloy no git pages aqui > https://pedropaulo-git.github.io/PortSoftware/
+![p](https://github.com/user-attachments/assets/09c7a80f-ae99-4676-a98b-96517df77f13)
+![y](https://github.com/user-attachments/assets/ab67ca71-732c-4ff2-a758-6d2b6cb5311c)
