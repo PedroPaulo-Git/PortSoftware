@@ -21,8 +21,8 @@ import ProjectPortbackgroundSoftpet from '../../assets/project-4.jpg'
 import ProjectMovies from '../../assets/movies.png'
 import ProjectPortbackgroundMovies from '../../assets/project-2.jpg'
 
-import ProjectMarioBros from '../../assets/Gamemariobros.png'
-import ProjectIdealbackgroundMarioBros from '../../assets/project-5.jpg'
+// import ProjectMarioBros from '../../assets/Gamemariobros.png'
+// import ProjectIdealbackgroundMarioBros from '../../assets/project-5.jpg'
 
 import BackgroundProject from '../../assets/background.png'
 
@@ -111,17 +111,7 @@ export const Project = () => {
                         </div>
                     </div>
 
-                   
-                    <div className='project-slide '>
-                        <img className='project-slide-img-background' src={ProjectIdealbackgroundMarioBros} alt="" />
-                        <img className='project-slide-img' src={ProjectMarioBros} alt="" />
-                        <div className='project-slide-bottom' >
-                            <div className='project-slide-bottom-text'>
-                                <span className='project-slide-bottom-subtitle'>Jogo Mario Bros</span>
-                                <span className='project-slide-bottom-title'>Desenvolvimento de Jogo Clássico <a target="blank" href='https://pedropaulo-git.github.io/MarioBrosGame/' className="project-slide-bottom-title-a">Ver Projeto  <FaArrowUpRightFromSquare /></a> </span>
-                            </div>
-                        </div>
-                    </div>
+                  
                     <div className='project-slide '>
                         <img className='project-slide-img-background' src={ProjectPortbackgroundSoftpet} alt="" />
                         <img className='project-slide-img' src={ProjectSoftpet} alt="" />
